@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
+import carPng from "../../assets/blackbgcar.png";
+import yellowCar from "../../assets/whitebgcar1.png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -27,7 +27,7 @@ const Hero = ({ theme }) => {
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              Effortless
+              Premium / Standard
             </p>
             <h1
               data-aos="fade-up"
@@ -37,8 +37,7 @@ const Hero = ({ theme }) => {
               Car Rental
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+            This website is used for renting cars online, allowing users to browse, compare, and book cars easily.{" "}
             </p>
             <button
               data-aos="fade-up"

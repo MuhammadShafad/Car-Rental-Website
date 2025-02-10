@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
@@ -10,7 +11,7 @@ const skillsData = [
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "We offer the most affordable and competitive rates on car rentals, ensuring you get the best value for your money.",
     aosDelay: "0",
   },
   {
@@ -19,7 +20,7 @@ const skillsData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Our car rental website offers a fast and safe way to book vehicles for any journey. With a streamlined booking process, users can quickly select their desired car.",
     aosDelay: "500",
   },
   {
@@ -28,7 +29,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Our car rental website offers not just a wide range of vehicles but also the expertise of experienced drivers to ensure a safe and comfortable journey.",
     aosDelay: "1000",
   },
 ];

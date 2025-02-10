@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import CarPng from "../../assets/car1.png";
+import CarPng from "../../assets/aboutcar.png";
 
 const About = () => {
   return (
+    <>
+    <span id="about"></span>
     <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
@@ -11,7 +13,7 @@ const About = () => {
             <img
               src={CarPng}
               alt=""
-              className="sm:scale-125 sm:-translate-x-11 max-h-[300px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
+              className="sm:scale-100 sm:-translate-x-11 max-h-[300px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
             />
           </div>
           <div>
@@ -22,13 +24,11 @@ const About = () => {
               >
                 About us
               </h1>
-              <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+              <p data-aos="fade-up">
+              The car rental website provides a seamless and user-friendly platform for individuals and businesses to rent vehicles with ease. Whether for daily commutes, business trips, vacations, or special occasions, users can browse through a diverse fleet of well-maintained cars, ranging from economy models to luxury vehicles.  
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+              With a streamlined booking process, users can compare prices, select pickup and drop-off locations, and complete secure online payments effortlessly. Additional features such as customer reviews, real-time availability updates, and exclusive discounts enhance the overall experience.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started
@@ -38,6 +38,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
